@@ -44,7 +44,7 @@ public class ControllerGame {
 			while (listPlayerGame.size() != 1) {
 				//timer to change players of place in this case 1000ms = 1 second
 				try {
-					Thread.sleep(0);
+					Thread.sleep(1000);
 				} catch (InterruptedException e) {
 					
 					e.printStackTrace();
